@@ -154,3 +154,35 @@ a {
   cursor: not-allowed;
   opacity: 0.5;
 }
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Neutraliza la lista nativa de Algolia InstantSearch */
+.ais-Hits,
+.ais-Hits-list {
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+  width: 100% !important;
+}
+
+/* Garantiza que cada tarjeta se ciña exactamente al ancho de su columna */
+.product-item-wrapper {
+  list-style: none;
+  min-width: 0 !important;
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+/* Asegura que los campos de búsqueda no superen el 100% de la pantalla */
+.ais-SearchBox,
+.ais-SearchBox-form,
+.ais-SearchBox-input {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box;
+}
