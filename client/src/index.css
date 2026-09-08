@@ -186,3 +186,24 @@ body {
   max-width: 100% !important;
   box-sizing: border-box;
 }
+
+.ais-Hits-list {
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+
+/* Fuerza a que cada tarjeta respete el Grid y no tenga márgenes invisibles */
+.ais-Hits-item, 
+.product-item-wrapper {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Evita desplazamientos horizontales en toda la página */
+body, html {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
