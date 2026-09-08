@@ -17,5 +17,7 @@ La disposición de los elementos fue diseñada para minimizar la fricción en el
 
 **3. Manejo de Estados (Empty State)**
 Para evitar frustración cuando una combinación de filtros o búsqueda no arroja coincidencias, se implementó un manejador de estado personalizado (`EmptyViewResults`).
+
 En lugar de mostrar una página rota o en blanco, la interfaz oculta la cuadrícula y la paginación, renderizando un contenedor centrado con un mensaje amigable ("No encontramos resultados").
+
 Este diseño incluye retroalimentación activa, invitando al usuario a ajustar sus parámetros de categoría o precio para continuar explorando el catálogo, manteniendo así al cliente dentro del flujo de la tienda.
