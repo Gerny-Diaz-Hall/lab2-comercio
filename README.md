@@ -9,6 +9,8 @@ Se sobrescribieron los estilos nativos del tema `satellite.css` utilizando CSS M
 
 Se eliminaron los rellenos (`padding`) y márgenes automáticos de las listas de Algolia (`.ais-Hits-list`) para integrar las tarjetas de productos dentro de una cuadrícula CSS personalizada (CSS Grid), asegurando que los inputs, botones de limpieza y resultados mantuvieran la identidad visual (bordes redondeados y sombras suaves) sin parecer un plugin externo de terceros.
 
+
+
 **2. Experiencia de Usuario (UX)**
 La disposición de los elementos fue diseñada para minimizar la fricción en el proceso de compra:
 * **Escritorio:** Se implementó una barra lateral izquierda (Sidebar) para los filtros, siguiendo el estándar de lectura occidental en e-commerce.
@@ -17,7 +19,9 @@ La disposición de los elementos fue diseñada para minimizar la fricción en el
   La barra de búsqueda corona los resultados para consultas directas, y la paginación cierra el flujo natural de navegación al final de la página.
 
 
-* **Móvil (Responsive):** Mediante `flex-direction: column`, los filtros se apilan estratégicamente en la parte superior. Esto evita que el usuario tenga que hacer *scroll* a través de decenas de productos irrelevantes antes de poder acotar su búsqueda, mejorando la retención y la experiencia de navegación táctil[cite: 8].
+* **Móvil (Responsive):** Mediante `flex-direction: column`, los filtros se apilan estratégicamente en la parte superior. Esto evita que el usuario tenga que hacer *scroll* a través de decenas de productos irrelevantes antes de poder acotar su búsqueda, mejorando la retención y la experiencia de navegación táctil.
+
+
 
 **3. Manejo de Estados (Empty State)**
 Para evitar frustración cuando una combinación de filtros o búsqueda no arroja coincidencias, se implementó un manejador de estado personalizado (`EmptyViewResults`).
