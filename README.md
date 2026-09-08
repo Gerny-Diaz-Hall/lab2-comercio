@@ -13,13 +13,13 @@ Se eliminaron los rellenos (`padding`) y márgenes automáticos de las listas de
 
 ### **2. Experiencia de Usuario (UX)**
 La disposición de los elementos fue diseñada para minimizar la fricción en el proceso de compra:
-* **Escritorio:** Se implementó una barra lateral izquierda (Sidebar) para los filtros, siguiendo el estándar de lectura occidental en e-commerce.
+* **Escritorio:** Se implementó una barra lateral izquierda (Sidebar) para los filtros, siguiendo el estándar de lectura occidental.
   Esto permite al usuario refinar por precio o categoría antes de procesar visualmente el catálogo.
 
-  La barra de búsqueda corona los resultados para consultas directas, y la paginación cierra el flujo natural de navegación al final de la página.
+  La barra de búsqueda esta para buscar los resultados para consultas directas, y la paginación cierra el flujo de navegación al final de la página.
 
 
-* **Móvil (Responsive):** Mediante `flex-direction: column`, los filtros se apilan estratégicamente en la parte superior. Esto evita que el usuario tenga que hacer *scroll* a través de decenas de productos irrelevantes antes de poder acotar su búsqueda, mejorando la retención y la experiencia de navegación táctil.
+* **Móvil (Responsive):** Mediante `flex-direction: column`, los filtros se apilan estratégicamente en la parte superior. Esto evita que el usuario tenga que hacer scroll a través de decenas de productos antes de poder acotar su búsqueda, mejorando la retención y la experiencia de navegación táctil.
 
 
 
