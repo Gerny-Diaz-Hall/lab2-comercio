@@ -11,6 +11,7 @@ Se eliminaron los rellenos (`padding`) y márgenes automáticos de las listas de
 La disposición de los elementos fue diseñada para minimizar la fricción en el proceso de compra:
 * **Escritorio:** Se implementó una barra lateral izquierda (Sidebar) para los filtros, siguiendo el estándar de lectura occidental en e-commerce.
   Esto permite al usuario refinar por precio o categoría antes de procesar visualmente el catálogo.
+
   La barra de búsqueda corona los resultados para consultas directas, y la paginación cierra el flujo natural de navegación al final de la página.
 
 
