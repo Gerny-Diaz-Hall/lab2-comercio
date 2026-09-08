@@ -4,7 +4,9 @@
 
 **1. Decisiones de Diseño (UI)**
 Los componentes predeterminados de Algolia (mediante `react-instantsearch`) fueron adaptados para alinearse completamente con el sistema de diseño y la paleta de colores del Proyecto I (CiberNova).
+
 Se sobrescribieron los estilos nativos del tema `satellite.css` utilizando CSS Modules y variables CSS globales (`--color-primary`, `--color-surface`).
+
 Se eliminaron los rellenos (`padding`) y márgenes automáticos de las listas de Algolia (`.ais-Hits-list`) para integrar las tarjetas de productos dentro de una cuadrícula CSS personalizada (CSS Grid), asegurando que los inputs, botones de limpieza y resultados mantuvieran la identidad visual (bordes redondeados y sombras suaves) sin parecer un plugin externo de terceros.
 
 **2. Experiencia de Usuario (UX)**
