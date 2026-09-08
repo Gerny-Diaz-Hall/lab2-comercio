@@ -8,6 +8,8 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.25rem;
   align-items: stretch;
+  padding: 0;
+  margin: 0;
 }
 
 .visuallyHidden {

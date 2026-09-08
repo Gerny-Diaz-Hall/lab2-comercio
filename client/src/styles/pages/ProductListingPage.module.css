@@ -93,12 +93,6 @@
   box-shadow: 0 10px 28px rgba(27, 51, 94, 0.04);
 }
 
-.filtersTitle {
-  font-size: 1.1rem;
-  margin: 0 0 1rem;
-  color: var(--color-text-primary);
-}
-
 .filterSection {
   margin-bottom: 2rem;
 }
@@ -148,14 +142,16 @@
   justify-content: center;
 }
 
+/* Modificado para que los productos salgan arriba y los filtros abajo en celulares */
 @media (max-width: 900px) {
   .searchLayout {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column-reverse;
     gap: 1.5rem;
   }
   
   .sidebar {
     width: 100%;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 }
