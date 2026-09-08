@@ -12,7 +12,7 @@ La disposición de los elementos fue diseñada para minimizar la fricción en el
 * **Escritorio:** Se implementó una barra lateral izquierda (Sidebar) para los filtros, siguiendo el estándar de lectura occidental en e-commerce.
 * Esto permite al usuario refinar por precio o categoría antes de procesar visualmente el catálogo.
 * La barra de búsqueda corona los resultados para consultas directas, y la paginación cierra el flujo natural de navegación al final de la página.
-* 
+  
 * **Móvil (Responsive):** Mediante `flex-direction: column`, los filtros se apilan estratégicamente en la parte superior. Esto evita que el usuario tenga que hacer *scroll* a través de decenas de productos irrelevantes antes de poder acotar su búsqueda, mejorando la retención y la experiencia de navegación táctil[cite: 8].
 
 **3. Manejo de Estados (Empty State)**
