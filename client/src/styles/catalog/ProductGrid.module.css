@@ -38,13 +38,13 @@
 /* Adaptación responsiva limpia y sin duplicados */
 @media (max-width: 1024px) {
   .grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Tablets: 2 columnas */
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (max-width: 640px) {
   .grid {
-    grid-template-columns: repeat(1, minmax(0, 1fr)); /* Celulares: 1 columna */
+    grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 0.8rem;
   }
 }

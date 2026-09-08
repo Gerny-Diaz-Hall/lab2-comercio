@@ -145,7 +145,6 @@
   justify-content: center;
 }
 
-/* Modificado para garantizar anchos correctos en móviles */
 @media (max-width: 900px) {
   .searchLayout {
     display: flex;
