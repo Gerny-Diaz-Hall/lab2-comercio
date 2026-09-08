@@ -52,6 +52,8 @@
 
 .results {
   scroll-margin-top: 6rem;
+  width: 100%;
+  min-width: 0;
 }
 
 @media (max-width: 760px) {
@@ -83,6 +85,7 @@
   grid-template-columns: 260px 1fr;
   gap: 2rem;
   align-items: start;
+  width: 100%;
 }
 
 .sidebar {
@@ -142,12 +145,17 @@
   justify-content: center;
 }
 
-/* Modificado para que los productos salgan arriba y los filtros abajo en celulares */
+/* Modificado para garantizar anchos correctos en móviles */
 @media (max-width: 900px) {
   .searchLayout {
     display: flex;
     flex-direction: column-reverse;
     gap: 1.5rem;
+    width: 100%;
+  }
+  
+  .results {
+    width: 100%;
   }
   
   .sidebar {
