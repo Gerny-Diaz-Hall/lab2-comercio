@@ -12,7 +12,7 @@ import type { Product, ProductCategory } from '../data/products'
 import styles from '../styles/pages/ProductListingPage.module.css'
 import gridStyles from '../styles/catalog/ProductGrid.module.css'
 
-const searchClient = algoliasearch('CH9RP8TVJP', '284d3f0d4725831b38957dfa16b3a3ae')
+const searchClient = algoliasearch('E04DCFPQNV', '16da82a2288e470bd604a78ae6908c8b')
 
 function EmptyViewResults({ children }: { children: React.ReactNode }) {
   const { results } = useInstantSearch();
