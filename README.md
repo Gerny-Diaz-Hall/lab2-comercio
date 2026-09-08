@@ -2,7 +2,7 @@
 
 ## Documentación y Justificación UI/UX
 
-**1. Decisiones de Diseño (UI)**
+### **1. Decisiones de Diseño (UI)**
 Los componentes predeterminados de Algolia (mediante `react-instantsearch`) fueron adaptados para alinearse completamente con el sistema de diseño y la paleta de colores del Proyecto I (CiberNova).
 
 Se sobrescribieron los estilos nativos del tema `satellite.css` utilizando CSS Modules y variables CSS globales (`--color-primary`, `--color-surface`).
@@ -11,7 +11,7 @@ Se eliminaron los rellenos (`padding`) y márgenes automáticos de las listas de
 
 
 
-**2. Experiencia de Usuario (UX)**
+### **2. Experiencia de Usuario (UX)**
 La disposición de los elementos fue diseñada para minimizar la fricción en el proceso de compra:
 * **Escritorio:** Se implementó una barra lateral izquierda (Sidebar) para los filtros, siguiendo el estándar de lectura occidental en e-commerce.
   Esto permite al usuario refinar por precio o categoría antes de procesar visualmente el catálogo.
@@ -23,7 +23,7 @@ La disposición de los elementos fue diseñada para minimizar la fricción en el
 
 
 
-**3. Manejo de Estados (Empty State)**
+#### **3. Manejo de Estados (Empty State)**
 Para evitar frustración cuando una combinación de filtros o búsqueda no arroja coincidencias, se implementó un manejador de estado personalizado (`EmptyViewResults`).
 
 En lugar de mostrar una página rota o en blanco, la interfaz oculta la cuadrícula y la paginación, renderizando un contenedor centrado con un mensaje amigable ("No encontramos resultados").
