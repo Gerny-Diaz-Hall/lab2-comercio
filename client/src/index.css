@@ -136,7 +136,6 @@ a {
   background-color: #164ed6;
 }
 
-/* Botón de limpiar filtros */
 .ais-ClearRefinements-button {
   background: transparent;
   color: var(--color-primary);
